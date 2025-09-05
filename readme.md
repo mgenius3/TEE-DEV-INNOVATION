@@ -22,7 +22,7 @@ The application follows a layered architecture pattern:
 - **Middleware**: Cross-cutting concerns like authentication and error handling
 - **Routes**: Define API endpoints and apply middleware
 
-## Features
+## Features 
 
 - User registration with email validation
 - User login with JWT token generation
