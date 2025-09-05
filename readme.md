@@ -1,4 +1,4 @@
-# JWT Authentication API - Service/Controller Architecture
+# JWT Authentication API - Tee Dev
 
 A RESTful API built with Node.js, TypeScript, and MySQL that provides user authentication using JSON Web Tokens (JWT). This project follows a clean architecture pattern with separate layers for controllers, services, and models.
 
