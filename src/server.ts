@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import { authRoutes } from './routes/auth';
 import { userRoutes } from './routes/users';
 import { connectDB } from './config/database';
-import { errorHandler } from './middleware/errorHandler';
+import { errorHandler, notFoundHandler } from './middleware/errorHandler';
 
 dotenv.config();
 
@@ -19,6 +19,9 @@ app.use(express.json());
 // Routes
 app.use('/auth', authRoutes);
 app.use('/users', userRoutes);
+
+// ✅ 404 handler 
+app.use(notFoundHandler);
 
 // Error handling middleware
 app.use(errorHandler);
