@@ -200,7 +200,7 @@ CREATE DATABASE tee_dev_jwt_auth_db;
 ### 4. Environment Configuration
 Copy the example environment file and update it with your configuration:
 ```bash
-cp  .env
+cp .env.example .env
 ```
 
 Edit the `.env` file with your database credentials:
